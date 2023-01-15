@@ -92,17 +92,18 @@ commit 的模板：
 `type(scope): subject`
 
 `type`为 commit 的类型，本仓库的 commit 类型仅支持如下：
-`feat`: 新特性
-`fix`: 修改问题
-`refactor`: 代码重构
-`docs`: 文档修改
-`style`: 代码格式修改
-`test`: 测试用例修改
-`chore`: 其他修改, 比如构建流程, 依赖管理.
-`pref`: 性能提升的修改
-`ci`: CI 的修改
-`revert`: revert 前一个 commit （ 撤销前一个 commit ）
-`vercel`: vercel 部署相关的修改
+
+- `feat`: 新特性
+- `fix`: 修改问题
+- `refactor`: 代码重构
+- `docs`: 文档修改
+- `style`: 代码格式修改
+- `test`: 测试用例修改
+- `chore`: 其他修改, 比如构建流程, 依赖管理.
+- `pref`: 性能提升的修改
+- `ci`: CI 的修改
+- `revert`: revert 前一个 commit （ 撤销前一个 commit ）
+- `vercel`: vercel 部署相关的修改
 
 `scope`是文件名/模块名/影响的范围
 例如 Button
